@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body style="width: 250px; padding: 15px; font-family: sans-serif;">
+  <h3>Roblox Exporter</h3>
+  <label>Experience IDs (comma separated):</label>
+  <textarea id="ids" style="width:100%; height:50px;">123456</textarea>
+  
+  <div style="margin-top:10px;">
+    <input type="checkbox" id="analytics" checked> Analytics<br>
+    <input type="checkbox" id="monetization" checked> Monetization<br>
+    <input type="checkbox" id="custom" checked> Custom Events
+  </div>
+
+  <button id="startBtn" style="margin-top:15px; width:100%; padding:10px; background:green; color:white; border:none; cursor:pointer;">
+    START RUN
+  </button>
+  <div id="status" style="font-size:11px; color:grey; margin-top:10px;"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
